@@ -1,16 +1,5 @@
 // E-Commerce Dietetica
 
-// 1) Mostrar productos en el html de forma dinámica
-// 2) Agregar productos en el carrito
-// 3) Evitar la carga de productos repetidos en el carrito
-// 4) Mostrar el carrito en el html de forma dinamica
-// 6) Calcular el total de la compra
-// 7) Vaciar el carrito
-// 8) Guardar el carrito en el localStorage
-
-
-///////////////////////////////////////////////////////////
-
 
 class Producto {
     constructor(id, nombre, precio, imagen){
@@ -21,7 +10,6 @@ class Producto {
         this.cantidad = 1;
     }
 }
-
 
 
 const jugo = new Producto(1, "Jugo", 1200, "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQePIhgqFIcP69TGgEKnL8CUNTM4wY4TJeOC0RK5O0bsYHo8Ar0v0Rdk7JyTTx68xmXLbpLOKY&usqp=CAE");
